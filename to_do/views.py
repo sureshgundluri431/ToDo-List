@@ -6,3 +6,5 @@ from to_do.forms import *
 def Home(request):
     return render(request,'home.html')
 
+def Task(request):
+    return render(request,'Task.html')
